@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700");
 
 * {
   box-sizing: border-box;
-  font-family:'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-a{
-    background-color: pink;
-    border: 1px solid grey
-   
+a {
+  background-color: pink;
+  border: .5px solid grey;
+  border-radius: 10%;
 }
 
-.container{
-    background-color: rgb(253, 150, 150);
+.container {
+  background-color: rgb(253, 150, 150);
+}
+
+.navigation{
+  text-align: center;
+}
+
+.nav-list{
+  text-align: center;
+}
+
+header{
+  text-align: center;
 }
 

@@ -13,45 +13,60 @@ a {
   display: grid;
   padding: 10px;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: -1;
 }
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: inline-grid;
+  grid-template-columns: repeat(1);
   grid-template-rows: 100px repeat(3, 100x) 150px;
   grid-gap: 15px 20px;
-  margin: 2rem auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1000px;
-  width: 95%;
+  width: 100%;
 }
 
 .email {
   display: block;
-  padding: 5px;
+  padding: 10px;
 }
 
-li {
-  float: left;
+.links {
+  padding: 10px;
 }
 
-.link-list {
-  list-style: bullets;
+.me {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-figure {
-  position: relative;
-}
-
-.about-me {
-  margin: 3rem 0;
-}
-.navigation {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-ul {
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: center;
+  padding: 10px;
+}
+
+.navigation li {
+    padding: 10px;
+}
+
+picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.skills {
+  padding: 10px;
+}
+.skill-list {
+  padding: 10px;
+  list-style-type: bullets;
 }
