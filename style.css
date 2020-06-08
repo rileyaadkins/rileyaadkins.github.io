@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700");
 
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: "Anton", sans-serif;
@@ -9,23 +13,24 @@
 
 a {
   background-color: pink;
-  border: .5px solid grey;
-  border-radius: 10%;
+  border-radius: 5%;
 }
-
 .container {
-  background-color: rgb(253, 150, 150);
+  background-color: rgb(212, 121, 136);
 }
 
-.navigation{
+.navigation {
   text-align: center;
 }
 
-.nav-list{
+.nav-list {
   text-align: center;
 }
 
-header{
+header h1 {
   text-align: center;
+  font-family: "Abril Fatface", cursive;
 }
-
+ h2{
+   font-family: 'Abril Fatface', cursive;
+ }
