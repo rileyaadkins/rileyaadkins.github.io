@@ -4,16 +4,54 @@
   padding: 0;
 }
 
+a {
+  display: inline-block;
+  padding: 12px;
+}
+
+.about-me {
+  display: grid;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 .container {
-  margin: 0 auto;
-  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px repeat(3, 100x) 150px;
+  grid-gap: 15px 20px;
+  margin: 2rem auto;
+  max-width: 1000px;
+  width: 95%;
+}
+
+.email {
+  display: block;
+  padding: 5px;
+}
+
+li {
+  float: left;
+}
+
+.link-list {
+  list-style: bullets;
+}
+
+figure {
+  position: relative;
+}
+
+.about-me {
+  margin: 3rem 0;
+}
+.navigation {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-li {
   float: center;
 }

@@ -7,3 +7,13 @@
   padding: 0;
 }
 
+a{
+    background-color: pink;
+    border: 1px solid grey
+   
+}
+
+.container{
+    background-color: rgb(253, 150, 150);
+}
+
