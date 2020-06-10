@@ -2,8 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
+:root {
+  --color1-salmon: #ffb5a7;
+  --color2-light-peach: #fcd5ce;
+  --color3-pale-pink: #f8edeb;
+  --color4-davys-grey: #50514f;
+  --color5-rich-black: #050609;
+}
 * {
   box-sizing: border-box;
   font-family: "Anton", sans-serif;
@@ -12,25 +19,38 @@
 }
 
 a {
-  background-color: pink;
   border-radius: 5%;
+  background-color: var(--color2-light-peach);
 }
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .container {
-  background-color: rgb(212, 121, 136);
+  background-color: var(--color1-salmon);
 }
 
 .navigation {
   text-align: center;
+  background-color: var(--color2-light-peach);
 }
 
 .nav-list {
   text-align: center;
+  color: var(--color5-rich-black);
 }
 
 header h1 {
   text-align: center;
   font-family: "Abril Fatface", cursive;
 }
- h2{
-   font-family: 'Abril Fatface', cursive;
- }
+h2 {
+  font-family: "Abril Fatface", cursive;
+}

@@ -10,14 +10,11 @@ a {
 }
 
 .about-me {
-  display: grid;
-  padding: 10px;
-  grid-column-start: 1;
-  grid-column-end: -1;
+  text-align: left;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(1);
+  grid-template-columns: repeat(2);
   grid-template-rows: 100px repeat(3, 100x) 150px;
   grid-gap: 15px 20px;
   text-align: center;
@@ -27,6 +24,15 @@ a {
 
 .email {
   display: block;
+  padding: 10px;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+img {
   padding: 10px;
 }
 
@@ -52,14 +58,6 @@ a {
 
 .navigation li {
   padding: 5px;
-  
-}
-
-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
 }
 
 .skills {
@@ -68,4 +66,5 @@ picture {
 .skill-list {
   padding: 10px;
   list-style-type: bullets;
+  text-align: left;
 }
