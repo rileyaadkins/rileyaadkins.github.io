@@ -10,21 +10,36 @@ a {
 }
 
 .about-me {
-  text-align: left;
+  text-align: center
+  
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(2);
-  grid-template-rows: 100px repeat(3, 100x) 150px;
-  grid-gap: 15px 20px;
-  text-align: center;
-  margin: 0 auto;
-  width: 1000px;
+
+@media screen and (min-width){
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: 100px repeat(3, 100x) 150px;
+    grid-gap: 15px 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+  }
 }
+
+
 
 .email {
   display: block;
   padding: 10px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  font-size: smaller;
 }
 
 h2 {
@@ -38,6 +53,7 @@ img {
 
 .links {
   padding: 10px;
+  text-align: center;
 }
 
 .me {
@@ -62,9 +78,11 @@ img {
 
 .skills {
   padding: 10px;
+  text-align: center;
 }
-.skill-list {
-  padding: 10px;
-  list-style-type: bullets;
-  text-align: left;
+
+.projects{
+  text-align: center;
 }
+
+
