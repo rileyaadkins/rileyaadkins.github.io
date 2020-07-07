@@ -34,10 +34,10 @@ a:visited {
 }
 
 .container {
-  background-color: var(--color1-salmon);
+  background-color: var(--color3-pale-pink);
 }
 
-.navigation {
+nav {
   text-align: center;
   background-color: var(--color2-light-peach);
 }
@@ -52,6 +52,7 @@ header h1 {
   font-family: "Abril Fatface", cursive;
   padding: 10px
 }
+
 h2 {
   font-family: "Abril Fatface", cursive;
 }
