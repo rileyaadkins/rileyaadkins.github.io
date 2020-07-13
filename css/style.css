@@ -20,7 +20,6 @@
 }
 
 a {
-  border-radius: 5%;
   background-color: var(--color2-light-peach);
 }
 
@@ -31,7 +30,6 @@ a:link {
 
 a:visited {
   color: black;
-  text-decoration: none;
 }
 
 .container {
@@ -39,18 +37,20 @@ a:visited {
 }
 
 .footer-nav {
-  text-align: center;
   background-color: var(--color2-light-peach);
 }
 
 nav {
-  text-align: center;
   background-color: var(--color2-light-peach);
 }
 
 .nav-list {
-  text-align: center;
   color: var(--color5-rich-black);
+}
+
+h1{
+  font-family: "Abril Fatface", cursive;
+  font-size: 65px;
 }
 
 h2 {
