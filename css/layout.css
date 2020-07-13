@@ -7,10 +7,14 @@
 a {
   display: inline-block;
   padding: 12px;
+  border-radius: 10px;
 }
 
 .about-me {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -28,49 +32,38 @@ footer {
   text-align: center;
 }
 
-.footer-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
 h2 {
   padding: 10px;
-}
-
-img {
-  padding: 5px;
 }
 
 .links {
   padding: 10px;
 }
 
-.me{
+main {
   padding: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.nav-image{
-  width: 40px;
-  height: 40px;
-}
-
-nav ul {
-  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
+  justify-content: space-evenly;
 }
 
-nav li {
-  padding: 5px;
+.me {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .skills {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
