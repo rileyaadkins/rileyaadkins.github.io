@@ -49,6 +49,10 @@ h2 {
   font-family: var(--header-font);
 }
 
+iframe{
+  border-style: none;
+}
+
 .project:hover{
   font-weight: bolder;
   transform: scale(1.1);
